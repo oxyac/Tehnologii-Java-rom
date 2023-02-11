@@ -2,6 +2,7 @@ package com.oxyac.intro;
 
 import com.oxyac.intro.lucrare.Lucrare;
 import com.oxyac.intro.lucrare.Lucrare1;
+import com.oxyac.intro.lucrare.Lucrare2;
 
 import java.util.HashMap;
 import java.util.Scanner;
@@ -28,6 +29,7 @@ public class Application {
     private static void loadWorks() {
         works = new HashMap<>();
         works.put(1, new Lucrare1());
+        works.put(2, new Lucrare2());
     }
 
     private static Integer acceptInput() {
